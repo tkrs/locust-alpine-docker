@@ -1,4 +1,4 @@
-FROM python:3.7-alpine3.7
+FROM python:3.6-alpine3.7
 
 RUN apk add --update --no-cache python3-dev musl-dev g++ && pip install locustio==0.8.1
 

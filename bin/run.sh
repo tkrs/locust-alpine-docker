@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 LOCUST_OPTS="-f $SCENARIO_FILE --host=$TARGET_URL"
 LOCUST_MODE=${LOCUST_MODE:-standalone}
